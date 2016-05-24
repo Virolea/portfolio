@@ -1,0 +1,26 @@
+.header {
+  position: relative;
+  background: image-url("header-image.png");
+  a {
+    text-decoration: none;
+    color: $gray-lighter;
+  }
+  .header-info {
+    padding: 30px;
+    color: $gray-lighter;
+    h3 {
+      font-weight: lighter;
+    }
+  }
+}
+.links {
+  padding: 5px;
+  font-size: 1.2em;
+  font-weight: lighter;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.bio {
+  padding: 30px;
+}
